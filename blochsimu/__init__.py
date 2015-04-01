@@ -26,4 +26,4 @@ and its simulate(...) method.
 
 @author: Koos Zevenhoven
 """
-from .bloch import Simulator
+from ._bloch import Simulator
