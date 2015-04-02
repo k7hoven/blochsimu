@@ -3,7 +3,7 @@ from setuptools import setup
 setup(name = "blochsimu",
       version = "0.1.1",
       description = "Bloch equation simulator for e.g. NMR-related simulations",
-      classifiers=[
+      classifiers = [
           'Development Status :: 4 - Beta',
           'License :: OSI Approved :: BSD License',
           'Programming Language :: Python :: 3',
