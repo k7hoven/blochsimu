@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name = "blochsimu",
-      version = "0.1.1",
+      version = "0.1.2",
       description = "Bloch equation simulator for e.g. NMR-related simulations",
       classifiers = [
           'Development Status :: 4 - Beta',
