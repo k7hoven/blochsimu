@@ -83,7 +83,7 @@ class Simulator(object):
         """Initialize simulator with given initial magnetization.
         
         Arguments:
-            M: Initial magnetization vector(s); last dimension must have 
+            M0: Initial magnetization vector(s); last dimension must have 
                 size 3.
             t0: Initial value of time.
             gamma: Gyromagnetic ratio.
