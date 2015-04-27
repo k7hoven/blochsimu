@@ -17,7 +17,7 @@
 Created on Wed Nov 19 19:18:07 2014
 
 Module for simulating the expectation of a spin-1/2 ensemble using the Bloch
-equation (currently non-dissipative),
+equation (currently non-dissipative, experimental support for linear dissipation is available),
 
 dM/dt = gamma M x B.
 
@@ -26,4 +26,4 @@ and its simulate(...) method.
 
 @author: Koos Zevenhoven
 """
-from ._bloch import Simulator
+from ._bloch import Simulator, gamma_H
